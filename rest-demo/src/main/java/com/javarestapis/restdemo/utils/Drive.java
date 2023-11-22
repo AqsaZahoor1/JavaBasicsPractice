@@ -7,10 +7,15 @@ public class Drive {
 
 	public static void main(String[] args) {
 		
-		Animals animal = new Cow();
+		Animals cow = new Cow();
 		
-		Cow co = new Cow();
+		cow.eat();
 		
-		List list = new ArrayList<String>();
+		Animals dog = new Dog();
+		
+		dog.bark();
+		
+		Account acc=new CurrentAccount();
 	}
+	
 }
